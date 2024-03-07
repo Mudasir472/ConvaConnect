@@ -15,7 +15,7 @@ function NavBar() {
           <NavLink exact to="/" className="nav-logo">
             <span>ConvoConnect</span>
             {/* <img src={logo}></img> */}
-            
+
             {/* <i className="fas fa-code"></i> */}
             <span className="icon">
               {/* <CodeIcon /> */}
@@ -68,6 +68,31 @@ function NavBar() {
                 Contact Us
               </NavLink>
             </li>
+            <ul className="loginSignup">
+              <li className="nav-item login">
+                <NavLink
+                  exact
+                  to="/Login"
+                  activeClassName="active"
+                  className="nav-links"
+                  onClick={handleClick}
+                >
+                  Login
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink
+                  exact
+                  to="/signUp"
+                  activeClassName="active"
+                  className="nav-links"
+                  onClick={handleClick}
+                >
+                  Sign Up
+                </NavLink>
+              </li>
+              
+            </ul>
           </ul>
           <div className="nav-icon" onClick={handleClick}>
             {/* <i className={click ? "fas fa-times" : "fas fa-bars"}></i> */}
