@@ -68,31 +68,34 @@ function NavBar() {
                 Contact Us
               </NavLink>
             </li>
-            <ul className="loginSignup">
-              <li className="nav-item login">
-                <NavLink
-                  exact
-                  to="/Login"
-                  activeClassName="active"
-                  className="nav-links"
-                  onClick={handleClick}
-                >
-                  Login
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink
-                  exact
-                  to="/signUp"
-                  activeClassName="active"
-                  className="nav-links"
-                  onClick={handleClick}
-                >
-                  Sign Up
-                </NavLink>
-              </li>
-              
-            </ul>
+            <div className="signn">
+              <ul className="loginSignup">
+                <li className="nav-item login">
+                  <NavLink
+                    exact
+                    to="/Login"
+                    activeClassName="active"
+                    // className="nav-links"
+                    onClick={handleClick}
+                  >
+                    <span>Login</span>
+                  </NavLink>
+                </li>
+                <li className="nav-item">
+                  <NavLink
+                    exact
+                    to="/signUp"
+                    activeClassName="active"
+                    // className="nav-links"
+                    onClick={handleClick}
+                  >
+                    <span style={{color : "black"}}>Sign Up</span>
+                  </NavLink>
+                </li>
+
+              </ul>
+            </div>
+
           </ul>
           <div className="nav-icon" onClick={handleClick}>
             {/* <i className={click ? "fas fa-times" : "fas fa-bars"}></i> */}

@@ -102,11 +102,7 @@
   height: 2rem;
 }
 
-.loginSignup {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
+
 
 ul {
   cursor: pointer;
@@ -119,6 +115,46 @@ ul {
   border-bottom: none;
   color: white;
   border-radius: 30px;
+  width: 102px;
+}
+.loginSignup {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.loginSignup span{
+  color: white;
+}
+.signn{
+  width: 40rem;
+  display: flex;
+  justify-content: end;
+}
+
+
+@media screen and (max-width: 960px){
+  .signn{
+    width: 18rem;
+  }
+  .loginSignup{
+    height: 66px;
+  }
+  .login {
+    background-color: blue;
+    border-bottom: none;
+    color: white;
+    border-radius: 30px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .login a{
+    width: 121px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+  }
 }
 
 @media screen and (max-width: 960px) {

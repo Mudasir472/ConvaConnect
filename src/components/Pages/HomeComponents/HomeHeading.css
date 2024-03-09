@@ -1,0 +1,13 @@
+.mainBox{
+    display: flex;
+    background: url('../Images/HomeBG.jpg');
+
+}
+.mainLeft{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.mainRight{
+    width: 40%;
+}
