@@ -1,13 +1,67 @@
 .mainBox{
     display: flex;
     background: url('../Images/HomeBG.jpg');
-
+    height: 80vh;
+    padding-top: 43px;
+    
 }
 .mainLeft{
+    margin-top: -44px;
+    justify-content: space-evenly;
     width: 60%;
     display: flex;
     flex-direction: column;
 }
 .mainRight{
     width: 40%;
+    background-color: rgb(213, 213, 213);
+}
+.mainDesc{
+    /* margin-top: -42px; */
+}
+.mainDesc h3{
+    width: 90%;
+    text-align: left;
+    
+}
+.mainHeading{
+    /* margin-top: -0px; */
+}
+.mainHeading h1{
+    font-family: AtypDisplay-Medium, Arial, sans-serif;
+    width: 88%;
+    text-align: left;
+    color: blue;
+}
+
+.mainButtons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 55px;
+    /* margin: auto; */
+    width: 25rem;
+}
+.mainButtons span{
+    cursor: pointer;
+    width: 123px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+}
+.loginn{
+    background-color: blue;
+    color: white;
+    font-weight: 500;
+}
+.Signn{
+    color: blue;
+    background-color: white;
+    font-weight: 500;
+}
+
+.container{
+    --bs-gutter-x: 3.5rem!important;
 }

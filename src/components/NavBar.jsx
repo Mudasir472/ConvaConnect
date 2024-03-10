@@ -13,7 +13,7 @@ function NavBar() {
       <nav className="navbar">
         <div className="nav-container">
           <NavLink exact to="/" className="nav-logo">
-            <span>ConvoConnect</span>
+            <span className="convo">ConvoConnect</span>
             {/* <img src={logo}></img> */}
 
             {/* <i className="fas fa-code"></i> */}
