@@ -1,6 +1,8 @@
 import "./HomeHeading.css";
+import videoCall from "../Images/videoCall.jpg"
 
 export default function(){
+
     return (
         <>
             <div className="mainBox ">
@@ -13,8 +15,8 @@ export default function(){
                     <div className="mainDesc">
                         <h3>
                         
-                        Our platform offers customizable meeting rooms, real-time collaboration tools, and advanced security measures to enhance productivity and creativity.<br/><br/>
-                        <b>Simplified online meeting software with enterprise-grade security _ perfect for a work-wherever world.</b>
+                        {/* Our platform offers customizable meeting rooms, real-time collaboration tools, and advanced security measures to enhance productivity and creativity.<br/><br/> */}
+                        Simplified online meeting software with enterprise-grade security _ perfect for a work-wherever world.
                         </h3>
                     </div>
                     <div className="mainButtons">
@@ -24,7 +26,7 @@ export default function(){
                 </div>
                 <div className="mainRight">
                     <div className="img">
-                        <h2>Image</h2>
+                        <img src={videoCall} alt="" />
                     </div>
                 </div>
             </div>

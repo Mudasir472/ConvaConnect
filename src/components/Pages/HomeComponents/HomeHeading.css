@@ -14,23 +14,22 @@
 }
 .mainRight{
     width: 40%;
-    background-color: rgb(213, 213, 213);
-}
-.mainDesc{
-    /* margin-top: -42px; */
+    /* background-color: rgb(213, 213, 213); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .mainDesc h3{
-    width: 90%;
+    width: 87%;
     text-align: left;
     
-}
-.mainHeading{
-    /* margin-top: -0px; */
+    
 }
 .mainHeading h1{
     font-family: AtypDisplay-Medium, Arial, sans-serif;
-    width: 88%;
+    width: 79%;
     text-align: left;
+    font-size: 3.375rem;
     color: blue;
 }
 
@@ -40,7 +39,7 @@
     justify-content: space-evenly;
     height: 55px;
     /* margin: auto; */
-    width: 25rem;
+    width: 20rem;
 }
 .mainButtons span{
     cursor: pointer;
@@ -62,6 +61,50 @@
     font-weight: 500;
 }
 
+.img img{
+    height: 278px;
+    width: 402px;
+}
+
 .container{
     --bs-gutter-x: 3.5rem!important;
+}
+
+@media only screen and (max-width: 600px){
+    .mainBox{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+    .mainHeading{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .mainDesc{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .mainLeft{
+        width: 100%;
+        margin-top: 0;
+    }
+    .mainHeading h1{
+        width: 91%;
+        font-size: 2.375rem;
+    }
+    .mainDesc h3{
+        font-size: 1.34rem;
+    }
+    .mainButtons{
+        flex-direction: column;
+        height: 169px;
+    }
+    .mainButtons span{
+        height: 39%;
+    }
+    .mainRight{
+        width: 100%;
+    }
 }
