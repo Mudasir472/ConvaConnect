@@ -1,4 +1,5 @@
 import "./HomeHeading.css";
+import { NavLink } from "react-router-dom";
 import videoCall from "../Images/videoCall.jpg"
 
 export default function(){
@@ -20,8 +21,21 @@ export default function(){
                         </h3>
                     </div>
                     <div className="mainButtons">
+                        <NavLink
+                        exact
+                        to="/Login"
+                        >
                         <span className="loginn">Login</span>
+                        </NavLink>
+
+                        <NavLink
+                        exact
+                        to="/SignUp"
+                        >
                         <span className="Signn">SignUp</span>
+                        </NavLink>
+                        
+                       
                     </div>
                 </div>
                 <div className="mainRight">

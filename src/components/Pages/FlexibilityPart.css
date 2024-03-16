@@ -1,0 +1,15 @@
+.flexible{
+    margin-top: 100px;
+}
+.flexHeading h2{
+    font-size: xxx-large;
+}
+.flexDesc h4{
+    font-weight: 400;
+}
+
+.runPart h1{
+    width: 50rem;
+    padding-top: 8rem;
+    padding-bottom: 5rem;
+}

@@ -1,7 +1,7 @@
 .mainBox{
     display: flex;
     background: url('../Images/HomeBG.jpg');
-    height: 80vh;
+    height: 85vh;
     padding-top: 43px;
     
 }
@@ -44,7 +44,7 @@
 .mainButtons span{
     cursor: pointer;
     width: 123px;
-    height: 100%;
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
