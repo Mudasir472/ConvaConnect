@@ -1,0 +1,16 @@
+.aboutHeading1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("../Pages/Images/aboutHeadBG.png");
+    flex-direction: column;
+    height: 70vh;
+}
+
+.aboutHeading h1 {
+    font-size: 5rem;
+}
+
+.aboutDesc p {
+    font-size: 1.5rem;
+}
