@@ -1,0 +1,10 @@
+.featuresHeading h2{
+    font-size: xxx-large;
+}
+.featuresDesc p{
+    font-size: x-large;
+}
+.featuresMainBox{
+    width: 100%;
+    line-height: 3;
+}

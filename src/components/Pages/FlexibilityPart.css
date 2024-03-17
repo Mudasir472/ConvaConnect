@@ -13,3 +13,10 @@
     padding-top: 8rem;
     padding-bottom: 5rem;
 }
+
+@media only screen and (max-width: 600px){
+    .flexCards{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}

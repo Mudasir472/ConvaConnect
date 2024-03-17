@@ -74,7 +74,7 @@
     .mainBox{
         display: flex;
         flex-direction: column;
-        height: 100vh;
+        height: 147vh;
     }
     .mainHeading{
         display: flex;
@@ -102,9 +102,17 @@
         height: 169px;
     }
     .mainButtons span{
-        height: 39%;
+        height: 184%;
     }
     .mainRight{
         width: 100%;
+    }
+    .flexHeading h2{
+        font-size: xx-large;
+    }
+    .runPart h1 {
+        width: 50rem;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
     }
 }
