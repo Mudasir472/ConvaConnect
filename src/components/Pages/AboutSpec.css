@@ -1,0 +1,24 @@
+ .mainSpecLeft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+}
+
+.mainSpecRight{
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column; */
+    width: 40%;
+} 
+
+.specdesc{
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+.mainSpecRight img{
+    width: 600px;
+}
+
