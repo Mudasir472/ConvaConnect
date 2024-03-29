@@ -1,0 +1,25 @@
+.LeadershipThought {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.LeadershipThought .heading {
+    text-align: start;
+}
+
+.LeaderThoughtInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LeadersInfo {
+    width: 50%;
+    display: flex;
+}
+
+.LeaderThought.thoughts {
+    width: 50%;
+    font-size: bold;
+}

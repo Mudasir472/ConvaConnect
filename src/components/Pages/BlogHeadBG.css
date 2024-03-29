@@ -1,0 +1,28 @@
+.BlogHead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../Pages/Images/BlogBG.png");
+    background-size: cover;
+    height: 80vh;
+}
+
+.heading h2 {
+    color: white;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: 3.5rem;
+}
+.BlogButton{
+    width: 11%;
+    margin-top: 20px;
+}
+.BlogButton button{
+    width: 100px;
+   background-color: rgb(12, 12, 241);
+   font-weight: bolder;
+   border: none;
+   border-radius: 20px;
+}
