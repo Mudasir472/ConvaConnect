@@ -6,7 +6,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     flex-direction: column;
-    height: 47vh;
+    height: 46vh;
 }
 
 .aboutHeading h1 {
@@ -16,6 +16,4 @@
 .aboutDesc p {
     font-size: 1.5rem;
 }
-/* .container{
-    margin-left: 0!important;
-} */
+/* just testing */
