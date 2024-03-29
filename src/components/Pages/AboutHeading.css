@@ -2,9 +2,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url("../Pages/Images/aboutHeadBG.png");
+    background: url("../Pages/Images/BgAbout.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
     flex-direction: column;
-    height: 70vh;
+    height: 47vh;
 }
 
 .aboutHeading h1 {
@@ -14,6 +16,6 @@
 .aboutDesc p {
     font-size: 1.5rem;
 }
-.container{
+/* .container{
     margin-left: 0!important;
-}
+} */

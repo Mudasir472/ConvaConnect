@@ -22,3 +22,11 @@
     display: flex;
     padding-left: 31px;
 }
+.mainImg{
+    width: 135vh;
+    height: 66vh;
+}
+.mainImg img{
+    height: 100%;
+    width: 100%;
+}
