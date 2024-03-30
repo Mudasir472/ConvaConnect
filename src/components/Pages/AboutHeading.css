@@ -17,3 +17,9 @@
     font-size: 1.5rem;
 }
 /* just testing */
+@media only screen and (max-width: 600px){
+    .aboutHeading1 {
+        height: 40rem;
+        justify-content: space-evenly;
+    }
+}

@@ -30,3 +30,20 @@
     height: 100%;
     width: 100%;
 }
+@media only screen and (max-width: 600px){
+    .mainSpec{
+        flex-direction: column;
+    }
+    .mainSpecRight {
+        width: 100%;
+    }
+    .mainSpecRight img{
+        width: 100%;
+    }
+    .mainSpecLeft {
+        width: 100%;
+    }
+    h1{
+        font-size: 2.2rem!important
+    }
+}

@@ -12,9 +12,9 @@ export default function(){
                     <div className="heading">
                         <h3>The future of work is now</h3>
                     </div>
-                    <div >
+                    <div className='para' >
                         <p style={{width: "80%"}}>We're witnessing an evolution of the modern workforce, and the revolution of the modern workplace. GoTo is at the forefront, ready to help everyone take on all challenges, including:</p>
-                        <p className='d-flex flex-column align-items-start'>
+                        <p className='ullist d-flex flex-column align-items-start'>
                             <li>Facilitating flexible, hybrid and remote work policies</li>
                             <li>Providing seamless, on-demand support and assistance</li>
                             <li>Delivering powerful collaboration tools and cybersecurity products</li>

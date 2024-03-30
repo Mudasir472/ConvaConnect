@@ -2,6 +2,7 @@ import React from "react";
 import AboutHead from "./AboutHead";
 import AboutSpec from "./AboutSpec";
 import AboutFuture from "./AboutFuture";
+import Footer from "./Footer";
 
 export const About = () => {
   return (
@@ -11,7 +12,6 @@ export const About = () => {
       <AboutSpec />
 
       <AboutFuture />
-
     </div>
 
      

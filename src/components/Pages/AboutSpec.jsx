@@ -3,17 +3,17 @@ import mainImg from './Images/videoC.jpg';
 import "./AboutSpec.css";
 export default function () {
     return (
-        <div className="mainSpec container d-flex justify-content-center align-items-center">
+        <div className="mainSpec container d-flex justify-content-center align-items-center mt-5">
             <div className="mainSpecLeft  d-flex justify-content-center align-items-center flex-column">
                 <div className="SpecHeading">
                     <h1>It's not about where or when you work. It's about how you get it done.</h1>
                 </div>
                 <div className="specdesc">
                     <div className="desc1 pt-5">
-                        <p>In a flexibility-first world, great work can happen anywhere. That mindset has helped us fulfill the promise of reliability, connection, and simplicity for tens of millions of people, and in turn, has helped us become one of the world's largest SaaS companies – with more than 3,500 global employees, over $1.3 billion in annual revenue and tens of millions of users.</p>
+                        <p>In a flexibility-first world, great work can happen anywhere. That mindset has helped us fulfill the promise of reliability, connection, and simplicity for tens of millions of people, and in turn, has helped us become one of the world's largest SaaS companies - with more than 3,500 global employees, over $1.3 billion in annual revenue and tens of millions of users.</p>
                     </div>
                     <div className="desc2 pt-3">
-                        <p> Today, we’re the trusted partner for companies of all sizes to connect, collaborate, secure their workforces, and support employees and customers. Our portfolio of products, including GoTo Connect and Rescue, helps:</p>
+                        <p> Today, we're the trusted partner for companies of all sizes to connect, collaborate, secure their workforces, and support employees and customers. Our portfolio of products, including GoTo Connect and Rescue, helps:</p>
                     </div>
                     <div className="desc3 pt-3">
                         <p>

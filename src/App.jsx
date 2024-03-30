@@ -7,6 +7,7 @@ import { Contact } from "./components/Pages/Contact";
 import Navbar from "./components/NavBar";
 import { Login } from "./components/Pages/Login";
 import { SignUp } from "./components/Pages/SignUp";
+import Footer from "./components/Pages/Footer";
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
             <Route path="/Login" element={<Login />} />
             <Route path="/SignUp" element={<SignUp />} />
           </Routes>
+        </div>
+        <div style={{backgroundColor: "gray"}} className="footer">
+          <Footer/>
         </div>
       </Router>
   </>
