@@ -12,7 +12,7 @@ export default function () {
                 <div className="Leadersthought">
                     <div className="thoughts">
                         <h3><b>THOUGHT LEADERSHIP</b></h3>
-                        <h2>#GoToGetsIT: To navigate a downturn, start by defining what really matters</h2>
+                        <h2>#ConvaConnect : To navigate a downturn, start by defining what really matters</h2>
                         <p>Dr. Imtiyaz Hasan is an expert in strategic problem-solving and decision-making, and he’s spent his career advising business leaders – and future leaders – on how to make smart, tough calls in challenging economic climates.</p>
 
                         <p>With the rising demand to support remote and flexible work,  IT leaders are keenly aware of the need to maintain business continuity for both customers and employees by providing a seamless experience across multiple locations and devices.</p>
