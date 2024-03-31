@@ -45,6 +45,10 @@ export const SignUp = () => {
         <form method='post' action="/signup" onSubmit={submit}>
           {/* <img class="mb-4" src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="" style={{width : "72",height : "57"}} /> */}
           <h1 class="h3 mb-3 fw-normal">Please Sign Up</h1>
+      <main className="form-signin m-auto">
+        <form>
+          {/* <img className="mb-4" src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="" style={{width : "72",height : "57"}} /> */}
+            <h1 className="h3 mb-3 fw-normal">Please Sign Up</h1>
 
           <div class="form-floating mt-4">
             <input type="text" class="form-control" placeholder="name@example.com" name='name' value={userData.name} onChange={handleInputChange} />
@@ -58,10 +62,25 @@ export const SignUp = () => {
             <input type="password" class="form-control" id="floatingPassword" placeholder="Password" name='password' value={userData.password} onChange={handleInputChange} />
             <label for="floatingPassword">Create Password</label>
           </div>
+            <div className="form-floating mt-4">
+              <input type="email" className="form-control" id="floatingInput" placeholder="name@example.com"/>
+                <label for="floatingInput">Full Name</label>
+            </div>
+            <div className="form-floating mt-4">
+              <input type="email" className="form-control" id="floatingInput" placeholder="name@example.com"/>
+                <label for="floatingInput">Email address</label>
+            </div>
+            <div className="form-floating mt-4 mb-4">
+              <input type="password" className="form-control" id="floatingPassword" placeholder="Password"/>
+                <label for="floatingPassword">Create Password</label>
+            </div>
 
 
           <button class="btn btn-primary w-100 py-2" type="submit" onClick={submit}>Sign Up</button>
           <p class="mt-5 mb-3 text-body-secondary">Already Have An Account ? <a href="">Log In</a></p>
+            
+            <button className="btn btn-primary w-100 py-2" type="submit">Sign Up</button>
+            <p className="mt-5 mb-3 text-body-secondary">Already Have An Account ? <a href="">Log In</a></p>
         </form>
       </main>
     </div>
