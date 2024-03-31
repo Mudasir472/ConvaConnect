@@ -9,6 +9,7 @@ import { Login } from "./components/Pages/Login";
 import { SignUp } from "./components/Pages/SignUp";
 import Footer from "./components/Pages/Footer";
 
+import { Toaster } from 'react-hot-toast';
 function App() {
   return (
     <>
@@ -29,6 +30,7 @@ function App() {
           <Footer/>
         </div>
       </Router>
+      <Toaster/>
   </>
   );
 }
