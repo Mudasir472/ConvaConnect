@@ -10,7 +10,7 @@ export const Contact = () => {
       </div>
 
       <div className="ContactDesc mt-5">
-        <ContactBottom aboutMain="Press Contact" aboutMainDesc="MOhammad Abdul Rab" />
+        <ContactBottom aboutMain="Press Contact" aboutMainDesc="Mohammad Abdul Rab" />
         <ContactBottom aboutMain="Customer Support Contact" aboutMainDesc="Mudassir Ahmad Bhat" />
         <ContactBottom aboutMain="Security Contact" aboutMainDesc="Fahad Masroor" />
         <ContactBottom aboutMain="Investor Contact" aboutMainDesc="Dr.Syed Imtiyaz Hasan" />
