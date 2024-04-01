@@ -22,7 +22,7 @@ export const Login = () => {
       // console.log(response);
       if(response.status===202){
         console.log("success");
-        history('/');
+        history('/About');
         toast.success("Login successfully!!");
         // setUserData({
         //   name:'',

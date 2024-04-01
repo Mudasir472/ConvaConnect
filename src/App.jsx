@@ -14,10 +14,11 @@ function App() {
   return (
     <>
       <Router>
-        <Navbar/>
+        <Navbar />
         <div className="pages">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/Home" element={<newHome />} />
             <Route path="/ConvaConnect" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/blog" element={<Blog />} />

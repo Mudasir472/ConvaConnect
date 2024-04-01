@@ -1,6 +1,6 @@
 import "./HomeHeading.css";
 import { NavLink } from "react-router-dom";
-import videoCall from "../Images/videoCall.jpg"
+import videoCall from "../Images/VCBG.jpg"
 
 export default function(){
 
