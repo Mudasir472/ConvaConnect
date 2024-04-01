@@ -10,7 +10,7 @@ export default function () {
                             <h5>About ConvoConnect</h5>
                             <ul class="nav flex-column">
                                 <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Mission and Vision</a></li>
-                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Blog</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Blog </a></li>
                                 <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Contact Us</a></li>
                                 <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Feedback</a></li>
                                 <li class="nav-item mb-2"><a href="#" class="nav-link p-0">FAQ</a></li>
