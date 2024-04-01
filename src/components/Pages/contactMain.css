@@ -1,0 +1,15 @@
+.contactMain{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background: url("./Images/contactImg.jpg");
+    background-size: cover;
+}
+.left{
+    width: 40%;
+}
+.Conright{
+    width: 36%;
+    background-color: rgb(223, 222, 222);
+
+}

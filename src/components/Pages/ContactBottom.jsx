@@ -4,10 +4,10 @@ export default function ({ aboutMain, aboutMainDesc }) {
     return (
         <div className="ContactBottom">
             <div className="ContactBottomHead">
-                <h1>{aboutMain}</h1>
+                <h3>{aboutMain}</h3>
             </div>
             <div className="contactBot">
-                <h5>{aboutMainDesc}</h5>
+                <h6>{aboutMainDesc}</h6>
             </div>
         </div>
     );
