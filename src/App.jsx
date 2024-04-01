@@ -7,15 +7,18 @@ import { Contact } from "./components/Pages/Contact";
 import Navbar from "./components/NavBar";
 import { Login } from "./components/Pages/Login";
 import { SignUp } from "./components/Pages/SignUp";
+import Footer from "./components/Pages/Footer";
 
+import { Toaster } from 'react-hot-toast';
 function App() {
   return (
     <>
       <Router>
-        <Navbar/>
+        <Navbar />
         <div className="pages">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/Home" element={<newHome />} />
             <Route path="/ConvaConnect" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/blog" element={<Blog />} />
@@ -24,7 +27,11 @@ function App() {
             <Route path="/SignUp" element={<SignUp />} />
           </Routes>
         </div>
+        <div style={{backgroundColor: "gray"}} className="footer">
+          <Footer/>
+        </div>
       </Router>
+      <Toaster/>
   </>
   );
 }

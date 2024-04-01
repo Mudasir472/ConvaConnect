@@ -17,12 +17,13 @@ export const Flexibility = () => {
         <div className="flexDesc d-flex justify-content-center align-items-center">
             <h4>A virtual meeting platform designed for flexible work.</h4>
         </div>
-        <div className="flexCards container d-flex justify-content-between pt-5">
+        <div className="flexCards container flex-wrap d-flex justify-content-between pt-5">
             <FlexCards img={img1} title="Quick, secure access" desc="Virtual meetings are easier than ever. No downloads necessary to join in."/>
             <FlexCards img={img2} title="Simplified admin" desc="With unified administration across all GoTo products, hosting, managing, monitoring and supporting users couldn’t be simpler."/>
             <FlexCards img={img3} title="Crystal-clear audio" desc="Ensure attendees never miss a word with background noise supression and built-in audio for VoIP and toll."/>
+            
         </div>
-
+{/* hello this is testing */}
         <div data-aos="fade-right" className="runPart d-flex justify-content-center align-items-center">
             <h1>Run safe, secure, worry-free virtual meetings</h1>
         </div>

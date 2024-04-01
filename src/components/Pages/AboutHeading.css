@@ -2,9 +2,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url("../Pages/Images/aboutHeadBG.png");
+    background: url("../Pages/Images/BgAbout.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
     flex-direction: column;
-    height: 70vh;
+    height: 60vh;
 }
 
 .aboutHeading h1 {
@@ -13,4 +15,11 @@
 
 .aboutDesc p {
     font-size: 1.5rem;
+}
+/* just testing */
+@media only screen and (max-width: 600px){
+    .aboutHeading1 {
+        height: 40rem;
+        justify-content: space-evenly;
+    }
 }

@@ -1,0 +1,12 @@
+.ContactDesc {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 21rem;
+
+}
+
+.ContactBottom{
+    width: 50%;
+}

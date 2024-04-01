@@ -1,0 +1,15 @@
+.nav a{
+    color: white;
+}
+.nav{
+    --bs-nav-link-color: white!important;
+    --bs-nav-link-hover-color:white!important
+}
+.nav a :hover{
+    color: white;
+}
+@media only screen and (max-width: 600px){
+    .row{
+        height: 43rem;
+    }
+}

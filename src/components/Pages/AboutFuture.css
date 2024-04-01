@@ -1,0 +1,42 @@
+.left img{
+    height: 320px;
+}
+.left{
+    width: 40%
+}
+
+.right {
+    width: 60%;
+}
+
+@media only screen and (max-width: 600px){
+    .aboutFuture{
+        flex-direction: column-reverse;
+    }
+    .left{
+        width: 100%
+    }
+    .left img{
+        width: 100%;
+    }
+    
+    .right {
+        width: 100%;
+    }
+    .heading{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .para{
+        flex-direction: column;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .ullist{
+        width: 100%;
+    }
+}

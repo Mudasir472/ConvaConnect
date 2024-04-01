@@ -128,12 +128,21 @@ ul {
   color: white;
 }
 .signn{
-  width: 40rem;
+  width: 38rem;
   display: flex;
   justify-content: end;
 }
 
-
+@media screen and (max-width: 1350px){
+  .signn{
+    width: 35rem;
+  }
+}
+@media screen and (max-width: 1250px){
+  .signn{
+    width: 30rem;
+  }
+}
 @media screen and (max-width: 960px){
   .signn{
     width: 18rem;
