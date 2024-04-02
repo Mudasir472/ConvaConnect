@@ -56,7 +56,7 @@ export default function () {
                     </div>
 
                     <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-                        <p>© 2025 Company, Inc. All rights reserved.</p>
+                        <p>© 2024 Company, Inc. All rights reserved.</p>
                         <ul class=".text-light list-unstyled d-flex">
                             <li class="ms-3"><a class="link-body-emphasis" href="#"><i style={{ color: 'white' }} class="bi bi-facebook"></i></a></li>
                             <li class="ms-3"><a class="link-body-emphasis" href="#"><i style={{ color: 'white' }} class="bi bi-facebook"></i></a></li>
