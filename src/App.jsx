@@ -10,6 +10,7 @@ import { SignUp } from "./components/Pages/SignUp";
 import Footer from "./components/Pages/Footer";
 
 import { Toaster } from 'react-hot-toast';
+import UserDashboard from "./components/Pages/userDashboard";
 function App() {
   return (
     <>
@@ -18,13 +19,19 @@ function App() {
         <div className="pages">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/ConvaConnect/contact" element={<Home />} />
+            <Route path="/userDashboard" element={<UserDashboard />} />
             <Route path="/Home" element={<newHome />} />
             <Route path="/ConvaConnect" element={<Home />} />
             <Route path="/about" element={<About />} />
+            <Route path="/ConvaConnect/about" element={<Home />} />
             <Route path="/blog" element={<Blog />} />
+            <Route path="/ConvaConnect/contact" element={<Home />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/Login" element={<Login />} />
+            <Route path="/ConvaConnect/Login" element={<Home />} />
             <Route path="/SignUp" element={<SignUp />} />
+            <Route path="/ConvaConnect/SignUp" element={<Home />} />
           </Routes>
         </div>
         <div style={{backgroundColor: "gray"}} className="footer">

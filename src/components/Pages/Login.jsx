@@ -22,7 +22,7 @@ export const Login = () => {
       // console.log(response);
       if(response.status===202){
         console.log("success");
-        history('/About');
+        history('/userDashboard');
         toast.success("Login successfully!!");
         // setUserData({
         //   name:'',
@@ -32,11 +32,11 @@ export const Login = () => {
       }
       else if(response.status===502){
         console.log("Not Successs");
-        toast.success("Email Not Found");
+        toast.success("Invalid Email or password");
       }
     }
     catch (e) {
-      console.log(e)
+      console.log("error",e)
     }
   }
 
