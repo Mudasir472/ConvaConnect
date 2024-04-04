@@ -6,7 +6,6 @@ import Features from "./Features";
 import Footer from "./Footer";
 import { useLocation } from "react-router-dom";
 export const Home = () => {
-
   const location = useLocation();
   return (
     <div>

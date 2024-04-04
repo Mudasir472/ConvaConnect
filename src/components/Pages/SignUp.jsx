@@ -51,7 +51,7 @@ export const SignUp = () => {
             <label for="floatingInput">Full Name</label>
           </div>
           <div class="form-floating mt-4">
-            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" name='email' value={userData.email} onChange={handleInputChange} />
+            <input type="email" class="form-control" id="floatingInput" required placeholder="name@example.com" name='email' value={userData.email} onChange={handleInputChange} />
             <label for="floatingInput">Email address</label>
           </div>
           <div class="form-floating mt-4 mb-4">
