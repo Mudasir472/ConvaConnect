@@ -42,6 +42,7 @@ export const Login = () => {
     }
     catch (e) {
       console.log("error",e)
+      toast.error("Invalid Email or password");
     }
   }
 
