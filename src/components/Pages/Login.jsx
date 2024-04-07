@@ -32,7 +32,12 @@ export const Login = () => {
       }
       else if(response.status===502){
         console.log("Not Successs");
-        toast.success("Invalid Email or password");
+        toast.error("Invalid Email or password");
+
+        // else if (response.status === 502) {
+        //   console.log("Not Successs");
+        //   toast.error("Invalid Email or password"); // Use toast.error to display error messages
+        // }
       }
     }
     catch (e) {
