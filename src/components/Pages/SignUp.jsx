@@ -42,20 +42,20 @@ export const SignUp = () => {
   return (
     <div className="SignUp">
       <main class="form-signin m-auto">
-        <form method='post' action="/signup" onSubmit={submit}>
+        <form method='post' action="/signup" id="signup-form" onSubmit={submit}>
           {/* <img class="mb-4" src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="" style={{width : "72",height : "57"}} /> */}
           <h1 class="h3 mb-3 fw-normal">Please Sign Up</h1>
 
           <div class="form-floating mt-4">
-            <input type="text" class="form-control" placeholder="name@example.com" name='name' value={userData.name} onChange={handleInputChange} />
+            <input type="text" class="form-control" placeholder="name@example.com" id="Name" name='name' value={userData.name} onChange={handleInputChange} />
             <label for="floatingInput">Full Name</label>
           </div>
           <div class="form-floating mt-4">
-            <input type="email" class="form-control" id="floatingInput" required placeholder="name@example.com" name='email' value={userData.email} onChange={handleInputChange} />
+            <input type="email" class="form-control" id="Email" placeholder="name@example.com"  name='email' value={userData.email} onChange={handleInputChange} required />
             <label for="floatingInput">Email address</label>
           </div>
           <div class="form-floating mt-4 mb-4">
-            <input type="password" class="form-control" id="floatingPassword" placeholder="Password" name='password' value={userData.password} onChange={handleInputChange} />
+            <input type="password" class="form-control" id="Password" placeholder="Password" name='password' value={userData.password} onChange={handleInputChange} />
             <label for="floatingPassword">Create Password</label>
           </div>
 

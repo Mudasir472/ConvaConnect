@@ -7,7 +7,7 @@ import Footer from "./Footer";
 export const About = () => {
   return (
     <div className="about">
-      <AboutHead aboutHead="About Us." aboutDesc="Since day one, we’ve helped people and businesses do their best work – simply and securely – from anywhere. Today, work and life are intertwined. At GoTo, we like to think of ourselves as your go-to. We help you focus on the things that matter most throughout the day: your projects, your professions, and even your personal passions."/> 
+      <AboutHead aboutHead="About Us." aboutDesc="Welcome to ConvoConnect, where we are passionate about revolutionizing the virtual meeting experience. At ConvoConnect, we believe that seamless collaboration is the key to success for teams and organizations worldwide. Our mission is to enhance remote communication by providing innovative solutions that empower teams to connect, collaborate, and succeed."/> 
 
       <AboutSpec />
 
