@@ -1,4 +1,11 @@
 .form-signin{
-    max-width: 330px;
+    width: 31rem;
+    max-width: 391px;
     padding: 1rem;
+}
+
+.Loginn{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }

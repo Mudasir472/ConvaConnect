@@ -59,9 +59,9 @@ export default function () {
                         <p>© 2024 Company, Inc. All rights reserved.</p>
                         <ul class=".text-light list-unstyled d-flex">
                             <li class="ms-3"><a class="link-body-emphasis" href="#"><i style={{ color: 'white' }} class="bi bi-facebook"></i></a></li>
-                            <li class="ms-3"><a class="link-body-emphasis" href="#"><i style={{ color: 'white' }} class="bi bi-facebook"></i></a></li>
-                            <li class="ms-3"><a class="link-body-emphasis" href="#"><i style={{ color: 'white' }} class="bi bi-facebook"></i></a></li>
-                            <li class="ms-3"><a class="link-body-emphasis" href="#"><i style={{ color: 'white' }} class="bi bi-facebook"></i></a></li>
+                            <li class="ms-3"><a class="link-body-emphasis" href="#"><i style={{ color: 'white' }} class="bi bi-twitter-x"></i></a></li>
+                            <li class="ms-3"><a class="link-body-emphasis" href="#"><i style={{ color: 'white' }} class="bi bi-linkedin"></i></a></li>
+                            <li class="ms-3"><a class="link-body-emphasis" href="#"><i style={{ color: 'white' }} class="bi bi-github"></i></a></li>
 
 
                         </ul>

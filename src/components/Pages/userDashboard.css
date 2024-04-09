@@ -1,0 +1,18 @@
+.dashboard{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 51rem;
+    width: 100%;
+}
+.dashboard img{
+    height: 32rem;
+}
+.but button{
+    background-color: blue!important;
+    
+}
+button a{
+    color: white!important;
+}

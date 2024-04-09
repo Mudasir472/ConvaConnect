@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import { NavLink } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
 export const SignUp = () => {
@@ -61,7 +62,7 @@ export const SignUp = () => {
 
 
           <button class="btn btn-primary w-100 py-2" type="submit" onClick={submit}>Sign Up</button>
-          <p class="mt-5 mb-3 text-body-secondary">Already Have An Account ? <a href="">Log In</a></p>
+          <p class="mt-5 mb-3 text-body-secondary">Already Have An Account ? <NavLink exact to="/Login">Login</NavLink></p>
         </form>
       </main>
     </div>

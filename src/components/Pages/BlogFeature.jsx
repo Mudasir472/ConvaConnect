@@ -6,7 +6,7 @@ export default function ({img , info}){
                     <img style={{width : "384px"}} src={img} alt="" />
                 </div>
                 <div className="info">
-                    <h2>{info}</h2>
+                    <p style={{width : "22rem",marginBottom : "0!important"}}>{info}</p>
                 </div>
             </div>
         </div>

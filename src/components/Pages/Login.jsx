@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Login.css"
 import toast from "react-hot-toast";
+import img from './Images/Mobile_login.gif'
 
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
@@ -51,6 +52,11 @@ export const Login = () => {
   }
   return (
     <div className="Loginn">
+      <div className="loginnLeft">
+        <img style={{width: "38rem"}} src={img} alt="" />
+      </div>
+
+      <div className="loginnRight">
       <main className="form-signin m-auto">
         <form>
           <img className="mb-4" src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="" style={{ width: "72", height: "57" }} />
@@ -75,6 +81,8 @@ export const Login = () => {
           <p className="mt-5 mb-3 text-body-secondary">© 2024</p>
         </form>
       </main>
+      </div>
+      
     </div>
   );
 };
